@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping package="com.cid.entities">
+	<class name="Account" table="account">
+		<composite-id name="pk">
+			<key-property name="accountNo" column="account_no" />
+			<key-property name="ifscCode" column="ifsc_code" />
+		</composite-id>
+		<property name="accountHolderName" column="account_hld_nm" />
+		<property name="accountType" column="account_type" />
+		<property name="balance" />
+	</class>
+</hibernate-mapping>
