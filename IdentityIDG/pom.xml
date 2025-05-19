@@ -8,6 +8,7 @@
 	<groupId>hibernate</groupId>
 	<artifactId>IdentityIDG</artifactId>
 	<version>1.0.0</version>
+	<packaging>war</packaging>
 
 	<name>IdentityIDG</name>
 	<!-- FIXME change it to the project's website -->
